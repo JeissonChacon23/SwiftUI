@@ -17,31 +17,10 @@ import SwiftUI
 struct ImageView: View {
     var body: some View {
         VStack {
-                Image(systemName: "moonrise.circle.fill")
-                    .resizable()
-                    .frame(width: 100, height: 100)
-                    .foregroundColor(.secondary)
-                Image(systemName: "moonset.circle.fill")
-                    .resizable()
-                    .frame(width: 100, height: 100)
-                    .foregroundColor(.primary)
-            
-                Spacer()
                 
-                HStack{
-                    Image(systemName: "moonrise.circle.fill")
-                        .resizable()
-                        .frame(width: 100, height: 100)
-                        .foregroundColor(.secondary)
-                    Spacer()
-                    Image(systemName: "moonset.circle.fill")
-                        .resizable()
-                        .frame(width: 100, height: 100)
-                        .foregroundColor(.primary)
             }
         }
     }
-}
 
 
 
