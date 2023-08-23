@@ -7,6 +7,13 @@
 
 import SwiftUI
 
+
+
+
+
+
+
+
 struct ImageView: View {
     var body: some View {
         Image("swift")
@@ -14,8 +21,18 @@ struct ImageView: View {
             //.scaledToFill() //Para que creazca lo maximo de alto
             //.scaledToFit() //Para que crezca lo maximo de ancho
             .frame(width: 300, height: 300, alignment: .center)
+            .clipShape(Circle()) //Para solo mostrar la imagen dentro de un circulo
     }
 }
+
+
+
+
+
+
+
+
+
 
 struct ImageView_Previews: PreviewProvider {
     static var previews: some View {
