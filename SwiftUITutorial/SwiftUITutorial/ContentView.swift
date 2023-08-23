@@ -17,8 +17,9 @@ struct ContentView: View{
         VStack(){
             ZStack{
                 Text("00000000000000000000000000000000000")
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .padding()
-                    .background(.green)
+                    .background(.indigo)
                 Text("0000000000000000")
                     .padding()
                     .background(.yellow)
