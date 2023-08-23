@@ -15,10 +15,12 @@ import SwiftUI
 struct ContentView: View{
     var body: some View{
         VStack{
-            Text("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-            Text("bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb")
-            Text("ccccccccccccccccccccccccccccccccccccccccccc")
-                .background(.purple)
+            VStack(alignment: .trailing, spacing: 20){ //(alignment: .trailing) alineamiento a la derecha (alignment: .trailing) alineamiento a la izquiera (spacing: 20) El espacio que queda entre lineas o renglones
+                Text("8888888888888888888888888888888888888")
+                Text("8888888888888888")
+                Text("8888888888888888")
+            }.background(.purple)
+            
             
             Text("00000000000000000000000000000000000")
                 .padding()
