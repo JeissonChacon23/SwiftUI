@@ -18,14 +18,19 @@ struct ContentView: View{
             Text("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             Text("bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb")
             Text("ccccccccccccccccccccccccccccccccccccccccccc")
+                .background(.purple)
             
-            Text("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-                .padding() //Deja unos margenes a los lados 
-            Text("bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb")
+            Text("00000000000000000000000000000000000")
                 .padding()
-            Text("cccccccccccccccccccccccccccccccccccccc")
+                .background(.red)
+            Text("00000000000000000000000000000000000")
                 .padding()
+                .background(.green)
+            Text("00000000000000000000000000000000000")
+                .padding()
+                .background(.yellow)
         }
+        .background(.gray)
     }
 }
 
