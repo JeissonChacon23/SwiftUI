@@ -16,12 +16,16 @@ import SwiftUI
 
 struct ImageView: View {
     var body: some View {
-        Image("swift")
-            .resizable()
-            //.scaledToFill() //Para que creazca lo maximo de alto
-            //.scaledToFit() //Para que crezca lo maximo de ancho
-            .frame(width: 300, height: 300, alignment: .center)
-            .clipShape(Circle()) //Para solo mostrar la imagen dentro de un circulo
+        VStack {
+            Image("swift")
+                .resizable()
+                .padding(50)
+                .frame(width: 300, height: 300, alignment: .center)
+                .background(Color.indigo)
+                .clipShape(Circle())
+                .overlay(Circle().stroke(Color.blue, lineWidth: 4))//Enmarca un circulo en la imagen
+                .shadow(color: Color.gray, radius: 5)
+        }
     }
 }
 
