@@ -15,32 +15,7 @@ import SwiftUI
 struct ContentView: View{
     var body: some View{
         VStack(){
-            ZStack{
-                Text("")
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .padding()
-                    .background(.indigo)
-                Text("")
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .background(.yellow)
-                    .padding(40)
-                Text("")
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .background(.green)
-                    .padding(60)
-                Text("")
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .background(.purple)
-                    .padding(80)
-                Text("")
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .background(.orange)
-                    .padding(100)
-                Text("")
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .background(.bar)
-                    .padding(120)
-            }
+            
         }
     }
 }
