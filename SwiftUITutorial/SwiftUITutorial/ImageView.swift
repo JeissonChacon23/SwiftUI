@@ -17,14 +17,28 @@ import SwiftUI
 struct ImageView: View {
     var body: some View {
         VStack {
-            Image("swift")
-                .resizable()
-                .padding(50)
-                .frame(width: 300, height: 300, alignment: .center)
-                .background(Color.indigo)
-                .clipShape(Circle())
-                .overlay(Circle().stroke(Color.blue, lineWidth: 4))//Enmarca un circulo en la imagen
-                .shadow(color: Color.gray, radius: 5)
+                Image(systemName: "moonrise.circle.fill")
+                    .resizable()
+                    .frame(width: 100, height: 100)
+                    .foregroundColor(.secondary)
+                Image(systemName: "moonset.circle.fill")
+                    .resizable()
+                    .frame(width: 100, height: 100)
+                    .foregroundColor(.primary)
+            
+                Spacer()
+                
+                HStack{
+                    Image(systemName: "moonrise.circle.fill")
+                        .resizable()
+                        .frame(width: 100, height: 100)
+                        .foregroundColor(.secondary)
+                    Spacer()
+                    Image(systemName: "moonset.circle.fill")
+                        .resizable()
+                        .frame(width: 100, height: 100)
+                        .foregroundColor(.primary)
+            }
         }
     }
 }
