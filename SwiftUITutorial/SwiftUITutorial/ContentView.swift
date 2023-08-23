@@ -21,12 +21,16 @@ struct ContentView: View{
                 Text("8888888888888888")
             .background(.purple)
             
+            
             Spacer() //Empuja los elementos para que ocupen lo maximo posible
+            
             
             Text("00000000000000000000000000000000000")
                 .padding()
                 .background(.red)
+            
             Spacer()
+            
             Text("00000000000000000000000000000000000")
                 .padding()
                 .background(.green)
