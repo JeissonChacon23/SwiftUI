@@ -14,11 +14,21 @@
 import SwiftUI
 struct ContentView: View{
     var body: some View{
-        VStack(alignment: .trailing, spacing: 20){
+        VStack(){
+            HStack{
+                Spacer()
+                Text("888888888888888888888888888888888888888")
+                Text("666666666666666666666666666666666666666")
+            }
                 Text("8888888888888888888888888888888888888")
                 Spacer()
+            HStack{
                 Text("8888888888888888")
+                    .multilineTextAlignment(.leading)
+                    .background(.cyan)
                 Text("8888888888888888")
+                    .background(.bar)
+            }
             .background(.purple)
             
             
@@ -31,12 +41,14 @@ struct ContentView: View{
             
             Spacer()
             
-            Text("00000000000000000000000000000000000")
-                .padding()
-                .background(.green)
-            Text("00000000000000000000000000000000000")
-                .padding()
-                .background(.yellow)
+            HStack{
+                Text("00000000000000000000000000000000000")
+                    .padding()
+                    .background(.green)
+                Text("00000000000000000000000000000000000")
+                    .padding()
+                    .background(.yellow)
+            }
         }
         .background(.gray)
     }
