@@ -17,7 +17,9 @@ import SwiftUI
 struct ImageView: View {
     var body: some View {
         VStack {
-                
+            Image("swift")
+                .resizable()
+                .frame(width: 500, height: 500, alignment: .center)
             }
         }
     }
