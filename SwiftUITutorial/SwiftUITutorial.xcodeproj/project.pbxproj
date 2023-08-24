@@ -12,6 +12,9 @@
 		160023932A963F1B000B49EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160023922A963F1B000B49EE /* Assets.xcassets */; };
 		160023962A963F1B000B49EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160023952A963F1B000B49EE /* Preview Assets.xcassets */; };
 		1602CDC32A97948D0030796A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1602CDC22A97948D0030796A /* MainView.swift */; };
+		1602CDC62A9799290030796A /* Programmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1602CDC52A9799290030796A /* Programmer.swift */; };
+		1602CDC82A9799C80030796A /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1602CDC72A9799C80030796A /* RowView.swift */; };
+		1602CDCA2A979D610030796A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1602CDC92A979D610030796A /* ListView.swift */; };
 		16E3F8852A967EBC001C66BC /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E3F8842A967EBC001C66BC /* ImageView.swift */; };
 		16E3F8872A969215001C66BC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E3F8862A969215001C66BC /* MapView.swift */; };
 /* End PBXBuildFile section */
@@ -23,6 +26,9 @@
 		160023922A963F1B000B49EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		160023952A963F1B000B49EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1602CDC22A97948D0030796A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1602CDC52A9799290030796A /* Programmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmer.swift; sourceTree = "<group>"; };
+		1602CDC72A9799C80030796A /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		1602CDC92A979D610030796A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		16E3F8842A967EBC001C66BC /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		16E3F8862A969215001C66BC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +47,7 @@
 		160023822A963F1A000B49EE = {
 			isa = PBXGroup;
 			children = (
+				1602CDC42A9799000030796A /* Data */,
 				1600238D2A963F1A000B49EE /* SwiftUITutorial */,
 				1600238C2A963F1A000B49EE /* Products */,
 			);
@@ -62,6 +69,8 @@
 				160023902A963F1A000B49EE /* ContentView.swift */,
 				16E3F8842A967EBC001C66BC /* ImageView.swift */,
 				16E3F8862A969215001C66BC /* MapView.swift */,
+				1602CDC72A9799C80030796A /* RowView.swift */,
+				1602CDC92A979D610030796A /* ListView.swift */,
 				160023922A963F1B000B49EE /* Assets.xcassets */,
 				160023942A963F1B000B49EE /* Preview Content */,
 			);
@@ -74,6 +83,14 @@
 				160023952A963F1B000B49EE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1602CDC42A9799000030796A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1602CDC52A9799290030796A /* Programmer.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1602CDCA2A979D610030796A /* ListView.swift in Sources */,
 				16E3F8852A967EBC001C66BC /* ImageView.swift in Sources */,
+				1602CDC62A9799290030796A /* Programmer.swift in Sources */,
+				1602CDC82A9799C80030796A /* RowView.swift in Sources */,
 				16E3F8872A969215001C66BC /* MapView.swift in Sources */,
 				160023912A963F1A000B49EE /* ContentView.swift in Sources */,
 				1602CDC32A97948D0030796A /* MainView.swift in Sources */,
