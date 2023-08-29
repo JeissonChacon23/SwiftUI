@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ListDetailView: View {
+    
     var body: some View {
         VStack{
-            Image(systemName: "")
+            Image("Jeisson")
                 .resizable()
                 .frame(width: 200, height: 200)
                 .clipShape(Circle())
