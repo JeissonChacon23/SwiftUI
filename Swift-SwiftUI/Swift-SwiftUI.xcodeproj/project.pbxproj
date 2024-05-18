@@ -12,6 +12,7 @@
 		167F2EB22BF84676003F8178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167F2EB12BF84676003F8178 /* Assets.xcassets */; };
 		167F2EB52BF84676003F8178 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167F2EB42BF84676003F8178 /* Preview Assets.xcassets */; };
 		16DA26492BF9131C009AF49B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DA26482BF9131C009AF49B /* GradientView.swift */; };
+		16DA264B2BF916DC009AF49B /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DA264A2BF916DC009AF49B /* ShapesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		167F2EB12BF84676003F8178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		167F2EB42BF84676003F8178 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		16DA26482BF9131C009AF49B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		16DA264A2BF916DC009AF49B /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				167F2EAD2BF84675003F8178 /* Swift_SwiftUIApp.swift */,
+				16DA264A2BF916DC009AF49B /* ShapesView.swift */,
 				167F2EAF2BF84675003F8178 /* ContentView.swift */,
 				16DA26482BF9131C009AF49B /* GradientView.swift */,
 				167F2EB12BF84676003F8178 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			files = (
 				167F2EB02BF84675003F8178 /* ContentView.swift in Sources */,
 				167F2EAE2BF84675003F8178 /* Swift_SwiftUIApp.swift in Sources */,
+				16DA264B2BF916DC009AF49B /* ShapesView.swift in Sources */,
 				16DA26492BF9131C009AF49B /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
