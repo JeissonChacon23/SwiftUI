@@ -57,7 +57,7 @@ struct MenuView: View {
                         Image(systemName: "photo.stack")
                             .resizable()
                             .symbolRenderingMode(.multicolor)
-                            .symbolEffect(.variableColor)
+                            .symbolEffect(.pulse) //.pulse .variableColor .appear
                             .frame(width: 130, height: 120)
                             .padding()
                             .contextMenu(ContextMenu(menuItems: {
