@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160256772BFD414800892D9C /* StackedCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160256762BFD414800892D9C /* StackedCards.swift */; };
 		167F2EAE2BF84675003F8178 /* Swift_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167F2EAD2BF84675003F8178 /* Swift_SwiftUIApp.swift */; };
 		167F2EB02BF84675003F8178 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167F2EAF2BF84675003F8178 /* ContentView.swift */; };
 		167F2EB22BF84676003F8178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167F2EB12BF84676003F8178 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		160256762BFD414800892D9C /* StackedCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedCards.swift; sourceTree = "<group>"; };
 		167F2EAA2BF84675003F8178 /* Swift-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		167F2EAD2BF84675003F8178 /* Swift_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_SwiftUIApp.swift; sourceTree = "<group>"; };
 		167F2EAF2BF84675003F8178 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				16DA26482BF9131C009AF49B /* GradientView.swift */,
 				16DA264E2BFA363E009AF49B /* MenuView.swift */,
 				16DA26522BFA5CE6009AF49B /* CalendarView.swift */,
+				160256762BFD414800892D9C /* StackedCards.swift */,
 				167F2EB12BF84676003F8178 /* Assets.xcassets */,
 				167F2EB32BF84676003F8178 /* Preview Content */,
 			);
@@ -155,6 +158,7 @@
 				167F2EAE2BF84675003F8178 /* Swift_SwiftUIApp.swift in Sources */,
 				16DA264B2BF916DC009AF49B /* ShapesView.swift in Sources */,
 				16DA26492BF9131C009AF49B /* GradientView.swift in Sources */,
+				160256772BFD414800892D9C /* StackedCards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
